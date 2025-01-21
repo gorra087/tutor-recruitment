@@ -1,0 +1,119 @@
+sou ul{
+  margin:0px;
+  padding:0px;
+  color:black;
+  border:2px;
+  display:block;
+  position:relative;
+  float:"";
+}
+
+
+#sou li{
+  margin-right:5px;
+  position:relative;
+  float:left;
+  width:200px;
+  height:30;
+  text-align:center;
+  background:rgb(138, 181, 221);
+  border-color:black;
+  border-radius: 5%;
+}
+
+
+
+#connect li{
+  margin-left:5px;
+  margin-top: 0px;
+  position:absolute;
+  float:right;
+  width:150px;
+  height:30px;
+  display:block;
+  text-align: center;
+}
+
+#connect li:hover{
+  background: rgb(216, 6, 41);
+  border-radius: 15%;
+}
+#connect ul{
+  margin-left:285px;
+  margin-top: -25px;
+  position:relative;
+  display:flex;
+  border-color:black;
+  border-radius: 5%;
+  flex-direction: row;
+  justify-content:right;
+  align-content: right;
+  align-items: right;
+}
+#connect li a{
+  text-decoration:none;
+}
+#connect li a:link{
+  color:greenyellow;
+}
+#connect li a:visited{
+  color:yellow;
+}
+#sou a{
+  list-style:none;
+  text-decoration:none;
+  text-align:center;
+}
+
+#sou ul ul ul li{
+  background:"";
+  border-color:black;}
+
+#sou ul ul {
+  margin-top:12px;
+  visibility:hidden;}
+
+
+#sou ul ul ul{
+  margin-top:0px;
+  margin-left:150px;
+  position:absolute;
+  visibility:hidden;
+}
+
+
+
+#sou ul li:hover {
+  visibility:visible;
+  background:white;
+  border-color:black;
+  visibility:visible;
+}
+#sou ul li:hover ul li {
+  visibility:visible;
+  background:"";
+  border-color:black;
+  color:black;
+}
+
+#sou  ul ul  ul li:hover{
+  visibility:visible;
+  background:black;
+  color:purple;
+}
+
+#sou ul ul li:hover ul ul ul li a{
+  background:whitesmoke;
+  border-color:purple;
+  color:#fA39;}
+
+
+
+#sou{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
